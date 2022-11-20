@@ -3,3 +3,4 @@ export default class Person {
     return 'Felipe'
   }
 }
+console.log('ok')
