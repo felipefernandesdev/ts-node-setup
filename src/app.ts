@@ -5,4 +5,4 @@ const app = express()
 app.get('/', (req: express.Request, res: express.Response) => {
   res.send(new Person().myHelloWorld())
 })
-app.listen(3000, () => console.log('listening on port 3000'))
+app.listen(3000, () => console.log('listening on port 3000!'))
