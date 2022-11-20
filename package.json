@@ -14,7 +14,8 @@
   "lint-staged": {
     "src/**/*.ts": [
       "yarn eslint 'src/**' --fix",
-      "yarn prettier --check 'src/**'"
+      "yarn prettier --check 'src/**'",
+      "yarn test:staged"
     ]
   },
   "name": "setup_node_ts_zero",
