@@ -1,4 +1,4 @@
-import Person from './app'
+import Person from '@/app'
 
 it('should name', () => {
   const person = new Person()
