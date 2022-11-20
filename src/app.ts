@@ -1,3 +1,5 @@
-const msg = 'Legal '
-console.log(msg)
-console.log('ok')
+export default class Person {
+  myName() {
+    return 'Felipe'
+  }
+}

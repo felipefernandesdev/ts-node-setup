@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/app.ts' -e ts",
+    "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
     "test:watch": "yarn jest --watch",
