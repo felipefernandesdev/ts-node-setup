@@ -1,5 +1,7 @@
 {
   "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "start": "node dist/app.js",
     "start:dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
     "husky:prepare": "husky install",
     "test": "jest --passWithNoTests",
