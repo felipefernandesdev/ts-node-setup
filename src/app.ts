@@ -1,1 +1,1 @@
-console.log("Ok");
+const msg = 'Legal '
